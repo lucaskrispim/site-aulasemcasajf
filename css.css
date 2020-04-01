@@ -1,0 +1,110 @@
+/* body {
+  padding-top: 56px;
+} */
+
+.navcolor{
+  background-color: #563d7c;
+}
+
+.navcolor2{
+  background-color: #322348;
+}
+
+
+.class0{
+  background-color: #322348;
+  color: white;
+}  
+
+
+.class0:hover{
+  background-color: #380d6f;
+  color: white;
+}
+
+
+/* Efeito do botão do nav*/
+.bgb{
+  border-color: #fdfa72;
+  color: #fdfa72;
+}
+
+.bgb:hover{
+  background-color: #fdfa72;
+  color: #800080;
+  border-color: #fdfa72
+}
+
+/* cor dos botões sociais */
+.navbar-nav-svg {
+    display: inline-block;
+    width: 1rem;
+    height: 1rem;
+ /*   vertical-align: text-top; */
+}
+
+.footer {
+  left: 0;
+  bottom: 0;
+  width: 100%;
+/*  background-color: red; */
+  color: white;
+  text-align: center;
+}
+
+
+/* (Para recolher o botão) Style the sidenav links and the dropdown button */
+.sidenav a, .dropdown-btn {
+  display: block;
+}
+
+/* Dropdown container (hidden by default). Optional: add a lighter background color and some left padding to change the design of the dropdown content */
+.dropdown-container {
+  display: none;
+  background-color: #262626;
+  padding-left: 0px;
+}
+
+/* Efeito do botão */
+
+.buttonbgb{
+  background-color: white;
+    border-color: #563d7c;
+  color: #563d7c;
+}
+
+.buttonbgb:hover{
+  background-color: #563d7c;
+  color: white;
+  border-color: #563d7c;
+}
+
+ /*  Aumento do tamanho dos botões */
+.zoom {
+/*  padding: 5px; */
+/*  background-color: green; */
+  transition: transform .2s; /* Animation */
+  width: 20px;
+  height: 20px;
+  margin: 0 auto;
+}
+
+.zoom:hover {
+  transform: scale(1.5); /* (150% zoom - Note: if the zoom is too large, it will go outside of the viewport) */
+}
+
+a:active, a:focus {
+  outline: 0;
+  border: none;
+  -moz-outline-style: none;
+}
+
+.row.display-flex {
+  display: flex;
+  flex-wrap: wrap;
+}
+.row.display-flex > [class*='col-'] {
+  display: flex;
+  flex-direction: column;
+}
+
